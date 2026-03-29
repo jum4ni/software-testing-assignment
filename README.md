@@ -28,6 +28,12 @@ Koodinkattavuutta mitataan Jestillä ja raportoidaan Coveralls-palveluun
   - Coveralls-kattavuus: ~63%
 
 
+## Havaitut ongelmat
+Testauksen aikana ei havaittu kriittisiä  virheitä kirjaston toiminnassa. Kaikki testatut funktiot toimivat odotetusti.
+  - Sisäisten funktioiden testikattavuus voisi olla parempi
+  - Joissakin tapauksissa dokumentaatio voisi olla selkeämpi
+
+
 ## Yhteenveto
 Projektissa toteutettiin toimiva testaus- ja integraatioprosessi. GitHub Actions huolehtii testien ajamisesta jokaisen koodimuutoksen yhteydessä, ja koodikattavuus raportoidaan automaattisesti Coverals-palveluun. Näin testaus ja laadun seuranta tapahtuvat ilman manuaalisia toimenpiteitä.
 
