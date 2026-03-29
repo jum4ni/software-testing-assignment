@@ -14,6 +14,10 @@ npm test
 Kaikki testit menivät läpi onnistuneesti
 
 
+## Toteutustapa
+Työ aloitettiin toteuttamalla ja testaamalla yksikkötestit paikallisesti Jestillä. Tämän jälkeen projektiin lisättiin GitHub Actions-workflow. joka suorittaa testit automaattisesti jokaisen pushin yhteydessä. lopuksi kattavuusraportointi yhdistettiin Coveralls-palveluun.
+
+
 ## Jatkuva integraatio (CI)
 Github Actionsia käytetään testien automaattiseen ajamiseen jokaisen pushin yhteydessä.
 Workflow:
