@@ -1,17 +1,34 @@
-[![Coverage Status](https://coveralls.io/repos/github/jum4ni/software-testing-assignment/badge.svg?branch=main)](https://coveralls.io/github/jum4ni/software-testing-assignment?branch=main)
+# Ohjelmistotestaus - Tehtävä
 
-# Student template
+## Projektin kuvaus
+Tämä projekti on osa ohjelmistojen ylläpito ja testaus kurssia. Tavoitteena oli toteuttaa testejä, integroida jatkuva integraatio (CI) sekä mitata koodin kattavuutta.
+Reopositorio sisältää JavaScript-lähdekoodia sekä Jestillä toteutetut yksikkötestit.
 
-## Purpose of this repository
 
-This is a project template for students participating in Software Testing course
-at LAB University of Applied Sciences.
+## Testaus
+Yksikkötestit on tehty projektin keskeisille funktiolle. Testit kattavat normaalitapaukset, reunatapaukset sekä tarvittaessa virhetilanteet.
+Testit voidaan suorittaa komennolla:
 
-The repository only contains the source code that is under testing, `package.json` skeleton
-and LICENSE file.
+npm test
 
-Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
-Removing this license file directly violates terms and conditions of the software under testing.
-Individuals who remove or modify the license file will also carry the consequences.
+Kaikki testit menivät läpi onnistuneesti
 
-test coverage trigger
+
+## Jatkuva integraatio (CI)
+Github Actionsia käytetään testien automaattiseen ajamiseen jokaisen pushin yhteydessä.
+Workflow:
+  - Asentaa riippuvuudet
+  - Suorittaa testit
+  - Luo kattavuusraportin
+
+
+## Koodinkattavuus
+Koodinkattavuutta mitataan Jestillä ja raportoidaan Coveralls-palveluun
+  - Paikallinen kattavuus: ~75%
+  - Coveralls-kattavuus: ~63%
+
+
+## Yhteenveto
+Projektissa toteutettiin toimiva testaus- ja integraatioprosessi. GitHub Actions huolehtii testien ajamisesta jokaisen koodimuutoksen yhteydessä, ja koodikattavuus raportoidaan automaattisesti Coverals-palveluun. Näin testaus ja laadun seuranta tapahtuvat ilman manuaalisia toimenpiteitä.
+
+
