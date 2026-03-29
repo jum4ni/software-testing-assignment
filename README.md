@@ -40,5 +40,6 @@ Testauksen aikana ei havaittu kriittisiä  virheitä kirjaston toiminnassa. Kaik
 
 ## Yhteenveto
 Projektissa toteutettiin toimiva testaus- ja integraatioprosessi. GitHub Actions huolehtii testien ajamisesta jokaisen koodimuutoksen yhteydessä, ja koodikattavuus raportoidaan automaattisesti Coverals-palveluun. Näin testaus ja laadun seuranta tapahtuvat ilman manuaalisia toimenpiteitä.
+Kirjasto on testattujen ominaisuuksien perusteella toimiva ja käyttökelpoinen peruskäyttöön.
 
 
