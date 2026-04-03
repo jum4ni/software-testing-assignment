@@ -20,12 +20,21 @@ Työ aloitettiin toteuttamalla ja testaamalla yksikkötestit paikallisesti Jesti
 
 ## Jatkuva integraatio (CI)
 Github Actionsia käytetään testien automaattiseen ajamiseen jokaisen pushin yhteydessä.
-Workflow (pipiline):
+Workflow (pipeline):
   - Asentaa riippuvuudet
   - Suorittaa testit
   - Luo kattavuusraportin
 
 ![CI pipeline](images/pipeline.jpg)
+
+Projektissa käytetään GitHub Actionsia testauksen automatisointiin.
+Workflow on määritelty YAML-tiedostossa `.github/workflows/node.js.yml`.
+Pipeline käyttää Github tarjoamaa runneria, joka on virtuaalinen ympäristö, jossa testit suoritetaan.
+Pipeline tekee seuraavat vaiheet:
+  - asentaa Node.js-ympäristön
+  - asentaa projektin riippuvuudet
+  - suorittaa yksikkötestit
+  - luo koodikattavuusraportin
 
 ## Koodinkattavuus
 Koodinkattavuutta mitataan Jestillä ja raportoidaan Coveralls-palveluun
