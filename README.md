@@ -46,6 +46,10 @@ Koodinkattavuutta mitataan Jestillä ja raportoidaan Coveralls-palveluun
 ![Coveralls overview](images/coveralls_1.jpg)
 ![Coveralls overview](images/coveralls_2.jpg)
 
+## Testitulokset
+Alla näkyy yksikkötestien suoritus. Kaikki testit menivät läpi onnistuneesti:
+![Test results](images/run_npm_test.jpg)
+
 ## Havaitut ongelmat
 Testauksen aikana ei havaittu kriittisiä  virheitä kirjaston toiminnassa. Kaikki testatut funktiot toimivat odotetusti.
   - Sisäisten funktioiden testikattavuus voisi olla parempi
