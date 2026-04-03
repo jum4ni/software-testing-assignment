@@ -48,6 +48,7 @@ Koodinkattavuutta mitataan Jestillä ja raportoidaan Coveralls-palveluun
 
 ## Testitulokset
 Alla näkyy yksikkötestien suoritus. Kaikki testit menivät läpi onnistuneesti:
+
 ![Test results](images/run_npm_test.jpg)
 
 ## Havaitut ongelmat
