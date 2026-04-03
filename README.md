@@ -20,6 +20,7 @@ Työ aloitettiin toteuttamalla ja testaamalla yksikkötestit paikallisesti Jesti
 
 ## Jatkuva integraatio (CI)
 Github Actionsia käytetään testien automaattiseen ajamiseen jokaisen pushin yhteydessä.
+
 Workflow (pipeline):
   - Asentaa riippuvuudet
   - Suorittaa testit
@@ -30,6 +31,7 @@ Workflow (pipeline):
 Projektissa käytetään GitHub Actionsia testauksen automatisointiin.
 Workflow on määritelty YAML-tiedostossa `.github/workflows/node.js.yml`.
 Pipeline käyttää Github tarjoamaa runneria, joka on virtuaalinen ympäristö, jossa testit suoritetaan.
+
 Pipeline tekee seuraavat vaiheet:
   - asentaa Node.js-ympäristön
   - asentaa projektin riippuvuudet
