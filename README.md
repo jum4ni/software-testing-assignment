@@ -56,6 +56,10 @@ Testauksen aikana ei havaittu kriittisiä  virheitä kirjaston toiminnassa. Kaik
   - Sisäisten funktioiden testikattavuus voisi olla parempi
   - Joissakin tapauksissa dokumentaatio voisi olla selkeämpi
 
+## Issue-raportti
+Prjektin testauksen aikana havaittiin mahdollinen poikkeava toiminta yhdessä funktiossa. Alla on esimerkki issue-raportista GitHubissa:
+![Issue](images/issue.jpg)
+
 
 ## Yhteenveto
 Projektissa toteutettiin toimiva testaus- ja integraatioprosessi. GitHub Actions huolehtii testien ajamisesta jokaisen koodimuutoksen yhteydessä, ja koodikattavuus raportoidaan automaattisesti Coverals-palveluun. Näin testaus ja laadun seuranta tapahtuvat ilman manuaalisia toimenpiteitä.
