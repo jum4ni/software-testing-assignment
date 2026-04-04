@@ -21,11 +21,6 @@ Työ aloitettiin toteuttamalla ja testaamalla yksikkötestit paikallisesti Jesti
 ## Jatkuva integraatio (CI)
 Github Actionsia käytetään testien automaattiseen ajamiseen jokaisen pushin yhteydessä.
 
-Workflow (pipeline):
-  - Asentaa riippuvuudet
-  - Suorittaa testit
-  - Luo kattavuusraportin
-
 ![CI pipeline](images/pipeline.jpg)
 
 Projektissa käytetään GitHub Actionsia testauksen automatisointiin.
@@ -62,7 +57,8 @@ Prjektin testauksen aikana havaittiin mahdollinen poikkeava toiminta yhdessä fu
 
 
 ## Yhteenveto
-Projektissa toteutettiin toimiva testaus- ja integraatioprosessi. GitHub Actions huolehtii testien ajamisesta jokaisen koodimuutoksen yhteydessä, ja koodikattavuus raportoidaan automaattisesti Coverals-palveluun. Näin testaus ja laadun seuranta tapahtuvat ilman manuaalisia toimenpiteitä.
-Kirjasto on testattujen ominaisuuksien perusteella toimiva ja käyttökelpoinen peruskäyttöön.
+Projektin testauksen perusteella kirjasto toimii pääosin odotetusti. Kaikki toteutetut yksikkötestit menevät läpi onnistuneesti, mikä viittaa siihen, että testatut toiminnot toimivat oikein.
+Koodikattavuus on noin 63%, mikä antaa kohtalaisen hyvän yleiskuvan koodin toimivuudesta, mutta ei kata kaikkia mahdollisia tilanteita. Tämän vuoksi kattavuuteen voidaan luottaa perustoiminnallisuuksien osalta, mutta kaikkia reunatapauksia ei ole välttämättä testattu.
+Testauksen aikana ei havaittu merkittäviä virheitä. Kaikki Testit menivät läpi, joten kirjaston voidaan olettaa toimivan oikein testatuissa tilanteissa. Mahdolliset pienet puutteet eivät vaikuta merkittävästi käyttöön, mutta kattavuutta voisi vielä parantaa.
 
 
